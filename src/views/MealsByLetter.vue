@@ -2,7 +2,7 @@
 import { computed, watch } from 'vue'
 import store from '../store'
 import { useRoute } from 'vue-router'
-import Meals from '../composables/Meals.vue'
+import Meals from '../components/Meals.vue'
 
 const route = useRoute()
 const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')

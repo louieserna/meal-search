@@ -1,5 +1,5 @@
 <script setup>
-import MealItem from './MealItem.vue';
+import MealItem from '../components/MealItem.vue';
 
 const { meals } = defineProps({
     meals: {

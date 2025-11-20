@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import useAPI from '@/composables/useAPI';
-import Meals from '@/composables/Meals.vue';
+import Meals from '@/components/Meals.vue';
 
 const { api } = useAPI()
 const meals = ref([])
